@@ -1,0 +1,58 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.my-body{
+    background-image: url('');
+}
+
+.my-header{
+    background-color: #121315;
+    padding-top: 25px;
+}
+
+.img-header{
+    float: right;
+}
+
+.top-nav{
+    margin-bottom: 20px;
+}
+
+.top-btn{
+    margin: 0px 5px;
+    padding:10px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: solid;
+    border-radius: 10px;
+}
+
+.top-btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+main{
+    margin: auto;
+    width: 76vw;
+}
+
+.div-publi{
+    width: 38vw;
+}
+
+footer{
+    padding: 1px;
+    text-align: center;
+    font-weight: 700;
+    background-color: lightgray;
+}
+
+.clear{
+    clear: both;
+}

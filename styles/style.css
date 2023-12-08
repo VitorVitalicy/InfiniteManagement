@@ -1,0 +1,161 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: Telegraf;
+    src: url('../fonts/caviar_dreams/CaviarDreams.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Telegraf-Bold;
+    src: url('../fonts/caviar_dreams/CaviarDreams_Bold.ttf') format('truetype');
+}
+
+@media screen and (max-width:1050px){
+    .menu-item a p{
+        font-size: 80%;
+    }
+}
+
+@media (max-width:960px) {
+    
+    body main .menu-item{
+        width: 48%;
+        height: 28%;
+    }
+
+    body header .telegraf{
+        font-size: 240%;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    body{
+        background-image: url('../image/wallpaper/Fundo2-M.png');
+        background-size: contain;
+    }
+
+    body .menu-settings{
+        width: 50vw;
+    }
+
+    body header .telegraf{
+        font-size: 210%;
+    }
+
+    body header #image-logo{
+        width: 80%;
+    }
+
+}
+
+@media (max-width:576px){
+    body .menu-settings{
+        width: 60vw;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bord{
+    border: 1px solid black;
+}
+
+body{
+    background-image: url('../image/wallpaper/Fundo2-XX.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.my-header{
+    height: 30vh;
+    padding-top: 4%;
+}
+
+header img, div {
+    display: inline-block;
+}
+
+.intro{
+    color: white;
+    text-align: center;
+}
+
+.telegraf{
+    font-family: Telegraf-Bold;
+    font-size: 280%;
+}
+
+.subtitle{
+    font-size: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu-settings{
+    text-align: center;
+    padding-top: 3%;
+    background-color: rgba(255, 255, 255, 0.267);
+    background-image: url('../image/menu/Fundo-menu.png');
+    background-size: cover;
+    width: 40vw;
+    height: 58vh;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+
+::-webkit-scrollbar-track{
+    background-color: blueviolet;
+}
+
+.auto-margin{
+    margin: auto;
+}
+
+.menu-item{
+    display: inline-block;
+    width: 30%;
+    height: 40%;
+    margin-bottom: 4%;
+}
+
+.menu-item a{
+    color: white;
+    text-decoration: solid;
+    display: inline-block;
+    height: 90%;
+}
+
+/*
+.menu-item a:hover{
+    color: black;
+}
+*/
+
+.menu-item a img{
+    height: 80%;
+}
+
+.menu-item p{
+    font-size: 90%;
+}
+
+footer{
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer a{
+    margin: 0px 15px;
+}
+
+footer a img{
+    border-radius: 50%;
+}
