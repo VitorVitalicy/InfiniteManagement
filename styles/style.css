@@ -47,11 +47,27 @@
         width: 80%;
     }
 
+    body footer a img{
+        width: 4%;
+    }
+
 }
 
 @media (max-width:576px){
     body .menu-settings{
         width: 60vw;
+    }
+
+    body footer a img{
+        width: 5%;
+    }
+
+    body footer a{
+        text-align: center;
+    }
+
+    body footer a img{
+        display: block;
     }
 }
 
@@ -154,6 +170,11 @@ footer{
 
 footer a{
     margin: 0px 15px;
+    text-decoration: solid;
+}
+
+footer a p{
+    display: none;
 }
 
 footer a img{
